@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+
+.container-fluid{
+    background: linear-gradient(to bottom, #e3e3e3, #727070);
+}
+
+#navmain{
+    background-color: grey;
+}
+
+#gamecards{
+    margin-top: 20px;
+    
+}
+
+
+@media (max-width:600px){
+
+    #gamecards{
+        margin-left: 100px;
+    }
+}
+
+#accordionExample{
+    margin: 10px 10px 10px 10px;
+}
+
+
+.faqs{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#greenbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    margin: 10px 10px 10px 10px;
+}
+
+#pagen{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
